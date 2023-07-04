@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  gap: 1em;
+  padding: 1em 0;
+  border-bottom: 1px solid black;
+}
+.nav-item {
+  font-size: 1.2 em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+:global .active {
+  color: firebrick;
+}
+
+.nav-item:hover {
+  color: gray;
+}

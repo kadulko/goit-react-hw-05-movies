@@ -1,0 +1,13 @@
+.movie-details {
+  margin: 1.5em 0;
+  display: flex;
+  gap: 2em;
+}
+.poster {
+  width: 300px;
+}
+
+.add-info {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
